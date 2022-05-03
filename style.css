@@ -36,10 +36,14 @@ header{
     width: 100px;
 }
 
+.imgheader:hover{
+    filter: drop-shadow(0 0 0.5rem rgb(255, 81, 0));
+}
+
 .h1header{
     text-align: center;
     font-weight: bold;
-    color: rgb(180, 66, 66);
+    color: rgb(224, 77, 77);
 }
 
 .pheader{
@@ -51,23 +55,23 @@ header{
 .btnheader{
     position: static;
     padding: 15px;
-    background-color: rgb(180, 66, 66);
-    border: 3px solid rgb(180, 66, 66);
+    background-color: rgb(224, 77, 77);
+    border: 3px solid rgb(224, 77, 77);
     border-radius: 10px;
     font-weight: bolder;
-    color: rgb(248, 248, 248);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .btnheader:visited{
     text-decoration: none;
-    color: rgb(248, 248, 248);
+    color: rgb(255, 255, 255);
 }
 
 .btnheader:hover{
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
     border: 3px solid rgb(214, 214, 214);
-    color: rgb(180, 66, 66);
+    color: rgb(224, 77, 77);
     filter: drop-shadow(0 0 0.5rem rgb(255, 81, 0));
 }
 
@@ -82,8 +86,8 @@ nav{
         padding-top: 30px;
         padding-bottom: 30px;
         width: 500px;
-        border: 3px solid rgb(248, 248, 248);
-        background-color: rgb(248, 248, 248);
+        border: 3px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
         text-align: center;
         border-radius: 5px;
 }
@@ -119,8 +123,8 @@ ul{
         padding-top: 10px;
         padding-bottom: 30px;
         width: 500px;
-        border: 3px solid rgb(248, 248, 248);
-        background-color: rgb(248, 248, 248);
+        border: 3px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
         border-radius: 5px;
 }
 
@@ -148,7 +152,7 @@ blockquote{
 .imgmovie{
     display: inline-block;
     vertical-align: top;
-    width: 200px;
+    width: 150px;
     height: auto;
     margin: 10px auto;
     padding-left: 20px;
