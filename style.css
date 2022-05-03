@@ -136,10 +136,11 @@ h2{
 blockquote{
    display: inline-block;
    vertical-align: top;
-   width: 200px;
+   width: 250px;
    margin: 10px auto;
    padding-left: 20px;
    padding-top: 30px;
+   font-size: medium;
 }
 
 .imgmovie{
