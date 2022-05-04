@@ -1,7 +1,6 @@
 /*--------------IMPORT--------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 /*--------------BODY----------------*/
 
@@ -17,24 +16,25 @@ body{
 header{
     display: block;
     margin: 3% auto;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
-    width: 500px;
-    border: 3px solid rgb(248, 248, 248);
-    background-color: rgb(248, 248, 248);
+    width: 550px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
                 0 2px 4px rgba(0,0,0,0.07), 
                 0 4px 8px rgba(0,0,0,0.07), 
-                0 8px 16px rgba(0,0,0,0.07),
-                0 16px 32px rgba(0,0,0,0.07), 
-                0 32px 64px rgba(0,0,0,0.07);
+                0 8px 16px rgba(0,0,0,0.0),
+                0 16px 32px rgba(0,0,0,0.0), 
+                0 32px 64px rgba(0,0,0,0.0);
 }
 
 .imgheader{
     position: static;
-    margin: 0 auto;
+    margin: 5px auto;
+    margin-top: 5px;
     display: block;
     border-radius: 50%;
     border: 3px solid rgb(211, 211, 211);
@@ -48,19 +48,34 @@ header{
 
 .h1header{
     text-align: center;
-    font-weight: bold;
+    font-weight:900;
     color: rgb(224, 77, 77);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: x-large;
+}
+
+.h2header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: larger;
+    color: #807e7e;
+    font-size: large;
 }
 
 .pheader{
-    text-align: left;
-    margin-left: 10px;
+    text-align: justify;
+    margin-left: 20px;
+    padding-right: 20px;
     margin-bottom: 30px;
+    color: #807e7e;
+    line-height: 1.5rem;
+    font-weight: 400;
 }
 
 .btnheader{
     position: static;
-    padding: 15px;
+    padding: 10px;
     background-color: rgb(224, 77, 77);
     border: 3px solid rgb(224, 77, 77);
     border-radius: 10px;
@@ -89,9 +104,9 @@ header{
 nav{
         display: block;
         margin: 3% auto;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        width: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 550px;
         border: 3px solid rgb(255, 255, 255);
         background-color: rgb(255, 255, 255);
         text-align: center;
@@ -99,36 +114,40 @@ nav{
         box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
                     0 2px 4px rgba(0,0,0,0.07), 
                     0 4px 8px rgba(0,0,0,0.07), 
-                    0 8px 16px rgba(0,0,0,0.07),
-                    0 16px 32px rgba(0,0,0,0.07), 
-                    0 32px 64px rgba(0,0,0,0.07);
+                    0 8px 16px rgba(0,0,0,0.0),
+                    0 16px 32px rgba(0,0,0,0.0), 
+                    0 32px 64px rgba(0,0,0,0.0);
 }
 
-ul{
+li{
     display:inline-block;
     padding-left: 25px;
     padding-right: 25px;
+    margin-bottom: 10px;
 }
 
 .urlnav{
     display:flex;
     text-decoration: none;
-    color: rgb(99, 99, 99)
+    color: #cdcccd;
 }
 
 .urlnav:visited{
     text-decoration: none;
-    color: rgb(99, 99, 99);
+    color: #cdcccd;
     font-weight: bold;
 }
 
 .urlnav:hover{
-    color: rgb(0, 0, 0);
     filter: drop-shadow(0 0 0.5rem rgb(255, 81, 0));
 }
 
 .fa{
-    color: rgb(99, 99, 99);
+    color: #cdcccd;
+}
+
+.fa:hover{
+    filter: drop-shadow(0 0 0.5rem rgb(255, 81, 0));
 }
 
 /*--------------movie list--------------*/
@@ -138,46 +157,71 @@ ul{
         margin: 3% auto;
         padding-top: 10px;
         padding-bottom: 30px;
-        width: 500px;
+        width: 550px;
         border: 3px solid rgb(255, 255, 255);
         background-color: rgb(255, 255, 255);
         border-radius: 5px;
         box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
                     0 2px 4px rgba(0,0,0,0.07), 
                     0 4px 8px rgba(0,0,0,0.07), 
-                    0 8px 16px rgba(0,0,0,0.07),
-                    0 16px 32px rgba(0,0,0,0.07), 
-                    0 32px 64px rgba(0,0,0,0.07);
+                    0 8px 16px rgba(0,0,0,0.0),
+                    0 16px 32px rgba(0,0,0,0.0), 
+                    0 32px 64px rgba(0,0,0,0.0);
+}
+
+.surligne{
+    background-color: #71747359;
 }
 
 h2{
     text-align: center;
-    font-weight: bold;
+}
+
+.film{
+    margin-bottom: 30px;
+}
+
+.h2movie{
+    vertical-align: top;
+    font-size: large;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #817f7e;
+    font-weight: 600;
 }
 
 .pmovie{
+    vertical-align: middle;
     text-align: center;
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
+    color: #717473;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
 }
 
 blockquote{
-   display: inline-block;
-   vertical-align: top;
-   width: 250px;
-   margin: 10px auto;
-   padding-left: 20px;
-   padding-top: 30px;
-   font-size: medium;
+    display: inline-block;
+    vertical-align: middle;
+    width: 375px;
+    height: 100%;
+    margin: 25px auto;
+    padding-left: 20px;
+    font-size: 0.9rem;
+    text-align: justify;
+    word-spacing: 0.2rem;
+    color: #807e7e;
+    line-height: 1.5rem;
 }
 
 .imgmovie{
     display: inline-block;
-    vertical-align: top;
-    width: 150px;
-    height: auto;
+    vertical-align: middle;
+    width: 90px;
+    height: 100%;
     margin: 10px auto;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 /*--------------FOOTER--------------*/
