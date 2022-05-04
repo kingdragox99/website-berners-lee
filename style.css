@@ -127,6 +127,10 @@ ul{
     filter: drop-shadow(0 0 0.5rem rgb(255, 81, 0));
 }
 
+.fa{
+    color: rgb(99, 99, 99);
+}
+
 /*--------------movie list--------------*/
 
 .movie{
